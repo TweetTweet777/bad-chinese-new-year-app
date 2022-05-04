@@ -62,17 +62,17 @@ em strong {
   clear: both; }
 
 html[dir='rtl'] #visualizationColumn {
-  right: 0px; }
+  right: 0; }
 
 #visualizationColumn {
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   overflow: visible; }
 
 #visualizationColumn.pin_bottom {
   position: absolute;
-  bottom: 0px; }
+  bottom: 0; }
   #visualizationColumn.pin_bottom #belowVisualization {
     position: absolute;
     overflow: auto; }
@@ -172,7 +172,7 @@ button.arrow {
   border: 1px solid #FFA000;
   background-color: #FFA000;
   color: #fff;
-  margin: 5px 0px;
+  margin: 5px 0;
   margin-inline-end: 9px;
   display: none; }
 
@@ -197,7 +197,7 @@ button.arrow:disabled {
       margin: 0;
       margin-inline-end: 4px; }
   #soft-buttons :last-child {
-    margin-inline-end: 0px; }
+    margin-inline-end: 0; }
   @supports not (gap: 0 9px) {
     #soft-buttons {
       padding-inline-end: 9px; } }
@@ -223,10 +223,10 @@ button.arrow:disabled {
  * such as dialogs. */
 #codeTextbox {
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 30px;
-  bottom: 0px;
+  bottom: 0;
   font-size: 14px;
   min-height: calc(50% - 16px) !important;
   direction: ltr;
@@ -476,7 +476,7 @@ html[dir='rtl'] div#visualizationResizeBar {
     font-size: 32px;
     stroke-width: 2px; }
   #soft-buttons {
-    margin: 5px 0 0 0; }
+    margin: 5px 0 0; }
     #soft-buttons button {
       margin: 0 4px 0 0; }
   .small-footer-base.responsive small {
@@ -498,7 +498,7 @@ button.launch {
   color: #fff;
   font-size: large;
   min-width: 96px;
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 10px;
   /* Can't use "text-align: start" due to IE. */
   text-align: left; }
@@ -527,20 +527,20 @@ button.blocklyLaunch {
       min-width: 111px; } }
   button.blocklyLaunch img {
     float: left;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 6px; }
   button.blocklyLaunch div {
     text-align: left;
     margin-top: 3px;
     margin-right: 4px;
     float: right;
-    padding: 0px;
+    padding: 0;
     margin-left: 6px; }
     @media screen and (min-width: 1051px) {
       button.blocklyLaunch div {
         min-width: 45px; } }
   html[dir="RTL"] button.blocklyLaunch {
-    margin-right: 0px; }
+    margin-right: 0; }
   button.blocklyLaunch#resetButton {
     border: 1px solid #0094ca;
     background-color: #0094ca; }
@@ -557,8 +557,8 @@ button.share {
   border: 1px solid #FFA000;
   background-color: #FFA000;
   color: #fff;
-  margin-left: 0px;
-  margin-right: 0px; }
+  margin-left: 0;
+  margin-right: 0; }
 
 button.share:focus {
   outline-style: none; }
@@ -601,7 +601,7 @@ input[type="radio"] {
     min-width: 0; } }
 
 #learn h1 {
-  margin: 20px 0px 0px 0px; }
+  margin: 20px 0 0; }
 
 #learn img {
   margin-bottom: 5px; }
@@ -610,10 +610,10 @@ input[type="radio"] {
   display: block; }
 
 #make-your-own-button {
-  margin: 5px 0px 5px 0px; }
+  margin: 5px 0; }
 
 #open-workspace {
-  margin: 5px 0px 5px 0px; }
+  margin: 5px 0; }
 
 #gameButtons {
   position: relative;
@@ -701,7 +701,7 @@ input[type="radio"] {
 
 .feedback {
   font-size: 30px;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0;
   line-height: 28px;
   color: #7E5BA0;
   font-family: "Gotham 7r", sans-serif;
@@ -776,7 +776,7 @@ input[type="radio"] {
       left: 40px; }
 
 html[dir="RTL"] .prompt-icon-cell {
-  padding-right: 0px;
+  padding-right: 0;
   padding-left: 10px; }
   html[dir="RTL"] .prompt-icon-cell.authored_hints #lightbulb {
     right: 40px;
@@ -784,7 +784,7 @@ html[dir="RTL"] .prompt-icon-cell {
 
 .qtip.cdo-qtips.qtip-authored-hint .qtip-content {
   font-family: "Gotham 4r", sans-serif;
-  padding: 10px 10px 0 10px;
+  padding: 10px 10px 0;
   color: #5b6770; }
   .qtip.cdo-qtips.qtip-authored-hint .qtip-content h3 {
     margin-top: 0;
@@ -844,8 +844,8 @@ html[dir="RTL"] .prompt-icon-cell {
     padding-right: 5px; }
   #ani-gif-preview-wrapper {
     position: absolute;
-    right: 0px;
-    top: 0px; } }
+    right: 0;
+    top: 0; } }
 
 .workspace-header {
   text-align: center;
@@ -1043,7 +1043,7 @@ html[dir="RTL"] .prompt-icon-cell {
     margin: 25px -80px 25px 10px; }
 
 .modal-content.no-modal-icon .show-code .generated-code-container {
-  margin-left: 0px; }
+  margin-left: 0; }
 
 .generated-code-container {
   margin-top: 10px; }
@@ -1113,7 +1113,7 @@ html[dir="RTL"] .prompt-icon-cell {
   background-color: #b9bf15;
   border: 1px solid #b9bf15;
   color: white;
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 10px;
   text-align: center; }
 
@@ -1121,7 +1121,7 @@ html[dir="RTL"] .prompt-icon-cell {
   background-color: #ffa400;
   border: 1px solid #ffa400;
   color: white;
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 10px;
   text-align: center; }
 
@@ -1203,9 +1203,9 @@ html[dir="RTL"] .prompt-icon-cell {
   #sharing #send-to-phone-right {
     float: left;
     width: 35%;
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
   #sharing #send-to-phone-qr-code {
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
   #sharing button.saved-to-gallery {
     font-family: "Gotham 4i"; }
   #sharing #sharing-input-container {
@@ -1233,18 +1233,18 @@ html[dir="RTL"] .prompt-icon-cell {
     font-family: sans-serif; }
   #sharing div#phone-charges {
     font-size: 10px;
-    margin-top: 0px;
+    margin-top: 0;
     color: #c00; }
 
 .run26 {
   width: 26px;
   height: 26px;
-  background: url("assets/blockly/media/common_images/shared-sprites-26x26.png") 0px 0px; }
+  background: url("assets/blockly/media/common_images/shared-sprites-26x26.png") 0 0; }
 
 .reset26 {
   width: 26px;
   height: 26px;
-  background: url("assets/blockly/media/common_images/shared-sprites-26x26.png") 0px 26px; }
+  background: url("assets/blockly/media/common_images/shared-sprites-26x26.png") 0 26px; }
 
 #stepButton {
   margin-right: 0;
@@ -1482,7 +1482,7 @@ a.WireframeButtons_active, div.WireframeButtons_active {
     font-family: inherit; }
   .hide_toolbar_helper p {
     font-size: 16px;
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
 
 .hide_toolbar_helper:after, .hide_toolbar_helper:before {
   bottom: 100%;
@@ -1539,7 +1539,7 @@ block to be on top of the toolbox. The toolbox has a z-index of 70.
   border: 1px solid #0094ca;
   background-color: #0094ca;
   color: #fff;
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 3px;
   padding: 3px 6px;
   font-size: 14px;
@@ -1660,7 +1660,7 @@ block to be on top of the toolbox. The toolbox has a z-index of 70.
 
 /* Sprited icons. */
 .pause-btn {
-  background-position: 0px -84px;
+  background-position: 0 -84px;
   margin-right: 3px; }
 
 .continue-btn {
@@ -1668,7 +1668,7 @@ block to be on top of the toolbox. The toolbox has a z-index of 70.
   margin-right: 3px; }
 
 .step-in-btn {
-  background-position: 0px -105px;
+  background-position: 0 -105px;
   margin-right: 3px; }
 
 .step-out-btn {
@@ -1676,7 +1676,7 @@ block to be on top of the toolbox. The toolbox has a z-index of 70.
   margin-right: 3px; }
 
 .step-over-btn {
-  background-position: 0px 21px;
+  background-position: 0 21px;
   margin-right: 3px; }
 
 #visualizationOverlay {
@@ -2012,8 +2012,8 @@ div#visualizationResizeBar {
 #divApplab canvas, #designModeViz canvas {
   position: absolute;
   overflow: hidden;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: -1; }
 
 #divApplab label, #divApplab input, #divApplab button, #divApplab select, #divApplab textarea {
@@ -2074,13 +2074,13 @@ div#visualizationResizeBar {
   margin-bottom: -3px; }
 
 .code {
-  background-position: -21px 0px; }
+  background-position: -21px 0; }
 
 .link {
-  background-position: 0px 0px; }
+  background-position: 0 0; }
 
 .run {
-  background-position: 0px -21px;
+  background-position: 0 -21px;
   margin-right: 3px; }
 
 .stop {
@@ -2096,11 +2096,11 @@ div#visualizationResizeBar {
   margin-right: 3px; }
 
 .up-btn {
-  background-position: 0px -63px;
+  background-position: 0 -63px;
   margin-right: 3px; }
 
 .down-btn {
-  background-position: 0px -42px;
+  background-position: 0 -42px;
   margin-right: 3px; }
 
 #share-cell {
@@ -2186,7 +2186,7 @@ div#visualizationResizeBar {
   position: absolute;
   height: 24px;
   width: 24px;
-  margin: 0px; }
+  margin: 0; }
 
 /*
  * Reposition the bottom and right click targets to keep them from overlapping with
